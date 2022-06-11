@@ -11410,6 +11410,32 @@ exportObj.basicCardData = ->
                 "VersatileShip"
             ]
         }
+        {
+            name: "Luke Skywalker (BoY)"
+            canonical_name: 'Luke Skywalker'.canonicalize()
+            id: 554
+            unique: true
+            faction: "Rebel Alliance"
+            ship: "X-Wing"
+            skill: 5
+            keyword: ["Light Side"]
+            force: 2
+            points: 60
+            slots: [
+                "Talent"
+                "Force"
+                "Torpedo"
+                "Astromech"
+                "Modification"
+                "Configuration"
+            ]
+            autoequip: [
+                "Instinctive Aim"
+                "R2-D2"
+                "Proton Torpedoes"
+                "Attack Speed"
+            ]
+        }
     ]
 
     upgradesById: [
@@ -16383,6 +16409,15 @@ exportObj.basicCardData = ->
                     type: exportObj.Upgrade
                     slot: "Device"
                 }
+            ]
+        }
+        {
+            name: "Attack Speed"
+            id: 473
+            slot: "Talent"
+            points: 4
+            restrictions: [
+                ["Pilot", "Luke Skywalker (BoY)"]
             ]
         }
     ]
