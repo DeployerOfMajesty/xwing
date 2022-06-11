@@ -1742,8 +1742,8 @@ exportObj.cardLoaders.English = () ->
            display_name: """7th Sky Corps Pilot"""
            text: """%LINEBREAK%<strong>Versatile Frame:</strong> You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
         "Luke Skywalker (BoY)":
-           display_name: """Luke Skywalker"""
-           text: """After you become the defender (before dice are rolled), you may recover 1&nbsp;%FORCE%.%LINEBREAK%<strong>Hope :</strong>After another friendly ship at range 0-3 is destroyed, you may perform a %FOCUS% or %BOOST% action. """
+           display_name: """Luke Skywalker (BoY)"""
+           text: """After you are declared as the defender during an attack, you may recover 1 %FORCE%.%LINEBREAK%<strong>Hope :</strong>After another friendly ship at range 0-3 is destroyed, you may perform a %FOCUS% or %BOOST% action. """
            
         # Epic Ships
         "Republic Judiciary":
