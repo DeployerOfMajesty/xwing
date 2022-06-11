@@ -1741,6 +1741,9 @@ exportObj.cardLoaders.English = () ->
         "7th Sky Corps Pilot":
            display_name: """7th Sky Corps Pilot"""
            text: """%LINEBREAK%<strong>Versatile Frame:</strong> You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
+        "Luke Skywalker (BoY)":
+           display_name: """Luke Skywalker"""
+           text: """After you become the defender (before dice are rolled), you may recover 1&nbsp;%FORCE%.%LINEBREAK%<strong>Hope :</strong>After another friendly ship at range 0-3 is destroyed, you may perform a %FOCUS% or %BOOST% action. """
            
         # Epic Ships
         "Republic Judiciary":
@@ -2852,6 +2855,9 @@ exportObj.cardLoaders.English = () ->
            text: """<strong>Attack (%LOCK%):</strong> Spend 1 %CHARGE%. After you declare the defender, the defender may choose to suffer 1 %CRIT% damage. If it does, skip the Attack and Defense Dice steps and the attack is treated as hitting."""
         "Xanadu Blood":
            text: """Add %CREW% and %DEVICE% slots."""
+        "Attack Speed":
+           text: """After you fully execute a [3 %STRAIGHT%] or [4 %STRAIGHT%] maneuver, you may boost using the [1 %STRAIGHT%] template"""
+
 
             
         # Epic upgrades
