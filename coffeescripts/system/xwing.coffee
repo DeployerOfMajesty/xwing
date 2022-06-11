@@ -3250,6 +3250,8 @@ class exportObj.SquadBuilder
                         text += comma + exportObj.translate('restrictions', "#{r[1]} Ship")
                     when "Faction"
                         othertext += comma + exportObj.translate('faction', "#{r[1]}")
+                    when "Pilot"
+                        othertext += comma + "#{r[1]} "
                 comma = ', '
         if not card.skill
             if othertext == ''
@@ -4739,6 +4741,8 @@ class Ship
                             if @data.name in exportObj.epicExclusionsList then return false
                 when "Faction"
                     if @pilot.faction != r[1] then return false
+                when "Pilot"
+                    if @pilot.name != r[1] then return false
         return true
 
     doesSlotExist: (slot) ->
